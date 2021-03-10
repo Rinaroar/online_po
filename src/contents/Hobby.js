@@ -44,7 +44,7 @@ const Text = styled.p`
   text-align: center;
   }
 `
-const InstaLink = styled.a`
+/* const InstaLink = styled.a`
   text-decoration: none;
   font-weight: 600;
   color: rgb(189, 1, 129);
@@ -52,16 +52,16 @@ const InstaLink = styled.a`
   &:hover{
   color:#680270;
 }
-`
+` */
 
 const Contact = () => {
     return (
       <Container>
         <Title>What do I do after work ?</Title>
         <ItemYoga src={yoga} alt="Yoga pose"></ItemYoga>
-        <Text>Follow me on my dedicated
-          <InstaLink href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram"> Instagram Account!</InstaLink>
-        </Text>
+        <Text>Sport, draw, dance, read and a lot a stuff !
+{/*           <InstaLink href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram"> Instagram Account!</InstaLink>
+ */}        </Text>
       </Container >
     )
 }

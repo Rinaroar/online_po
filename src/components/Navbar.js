@@ -48,7 +48,7 @@ const Navbar = () => {
           <Cell><Link to="/about">About</Link></Cell>
           <Cell><Link to="/experiences">Experiences</Link></Cell>
           <Cell><Link to="/skills">Skills</Link></Cell>
-          <Cell><Link to="/projects">Projects</Link></Cell>
+          {/* <Cell><Link to="/projects">Projects</Link></Cell> */}
           <Cell><Link to="/hobby">Hobby</Link></Cell>
           <Cell><Link to="/contact">Contact</Link></Cell>
         </List>

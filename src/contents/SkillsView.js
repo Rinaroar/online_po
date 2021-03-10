@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import Resume from '../components/Resume';
 
 import { MAX } from "../constants";
 
@@ -105,6 +106,7 @@ function SkillsView() {
           </List>
           )}
       </Section>
+      <Resume/>
     </Container>
   )
 }

@@ -8,7 +8,7 @@ import { MAX } from "../constants";
 export const StyledBurger = styled.button`
   position: absolute;
   top: 5%;
-  left: 20rem;
+  left: 19rem;
   display: none;
   flex-direction: column;
   justify-content: space-around;
