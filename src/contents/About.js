@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Resume from '../components/Resume';
 
 import { MAX } from "../constants";
 
@@ -26,7 +27,7 @@ const Title = styled.h1`
 `
 
 const AboutMe = styled.h2`
-  color: rgb(189, 1, 129);
+  color: #CC7D20;
 
   ${MAX.MEDIA_XS} {
     font-size: 1.2rem;
@@ -39,16 +40,19 @@ const About = () => {
       <Title>About Me</Title>
       <p>Hey there,</p>
       <br></br>
-      <AboutMe>I'm Marina Luxin <br></br>Happy Apprentice Fullstack Web <u>Developer</u></AboutMe>
+      <AboutMe>I'm Marina Luxin <br></br>Happy Product Owner</AboutMe>
       <br></br>
         <p>I started my journey in Digital World from an young age designing, editing and creating stuff on Web.
           I did my studies in Paris beginning with a HND in communication and a Bachelor Degree in Digital Marketing.
           <br/>
-          <br/>Now I’m 23 years old and I am pursuing my Art Director Degree specialized in Web Developement at ECV Digital Paris.
-          Web development is one of my center of interest, such as Design and Yoga : fields where there is always something new to learn!
+          I continued with a <strong>Master Degree in Web Developement</strong> at ECV Digital Paris, to improve my technical skill doing front-end development.
           <br/>
-          <br/>Most of all I like to share and pass on my knowledge with the other through chat, classes or social media.
+          <br/>Now I’m about to finish my <strong>Art Director Degree specialized in Digital Startagy</strong>.
+          <br/>Digital culture is one of my center of interest, such as design and sport : fields where there is always something new to learn!
+          <br/>
+          <br/>Most of all I like to share and pass on my knowledge with the other.
         </p>
+      <Resume/>
     </Container>
   )
 }

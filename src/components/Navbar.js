@@ -35,7 +35,7 @@ const Cell = styled.li`
     color: white;
 
     &:hover {
-      font-weight: 700;
+      font-weight: 800;
     }
   }
 `
