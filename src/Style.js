@@ -8,7 +8,8 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1.5em;
   }
   body {
-    font-family: 'Raleway';
+    font-family: 'Open Sans', sans-serif;
+    color: #4F4F4F;
   }
   p {
     font-size: 1.2rem;

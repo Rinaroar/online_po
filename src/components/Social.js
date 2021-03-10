@@ -11,10 +11,10 @@ const SocialContainer = styled.div`
 const Network = styled.a`
   padding-right: 20px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #4F4F4F;
 
   &:hover {
-    color:  rgb(189, 1, 129);
+    color: #CC7D20;
   }
 `
 

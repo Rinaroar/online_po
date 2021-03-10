@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navigation = styled.nav`
   padding:60px 30px 0px 30px ;
   flex: 1.5;
-  background-color: #F0B269;
+  background-color: #CC7D20;
   display: block;
 
   ${MAX.MEDIA_M} {

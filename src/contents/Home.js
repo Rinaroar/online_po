@@ -62,7 +62,7 @@ const Text = styled.p`
   }
 `
 const Name = styled.h1`
-  color: #F0B269;
+  color: #CC7D20;
 `
 const Emoji = styled.i`
   font-size: 30px;
@@ -85,7 +85,13 @@ const Home = () => {
               Hi there! My name is
             </Hi>
             <Name>Marina Luxin</Name>
-            <Text>Product Owner based in France <Jump><br></br></Jump>interessed in product management included technical challenges,<br></br> user-oriented with strategic purpose, to improve projects and products</Text>
+            <Text>Product Owner based in France
+              <Jump>
+                <br></br>
+              </Jump>
+            Interessed in product management included technical challenges,
+              <br></br>
+            User-oriented with strategic purpose, to improve projects and products</Text>
           </Section>
         <Social />
       </Container>
