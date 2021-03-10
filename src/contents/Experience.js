@@ -36,7 +36,7 @@ const WidecardContent = styled.div`
 `
 
 const ExpeTitle = styled.h2`
-  color: rgb(189, 1, 129);
+  color: #CC7D20;
 
   ${MAX.MEDIA_XS} {
     font-size: 1.2rem;
@@ -57,10 +57,17 @@ function Expe() {
   const [data] = useState([
 
     {
+      title: "Product Owner",
+      where: "Lagadère Media News | Paris",
+      from: "2021",
+      to: "Now",
+      during: "Sandwich course in Master Degree"
+    },
+    {
       title: "Front-End Developer",
       where: "SeLoger | Paris",
-      from: "September 2019",
-      to: "Present",
+      from: "2019",
+      to: "2020",
       during: "Sandwich course in Master Degree"
     },
     {
