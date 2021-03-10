@@ -49,7 +49,7 @@ const List = styled.ul`
 
 `
 const SkillTitle = styled.h2`
-  color: rgb(189, 1, 129);
+  color: #CC7D20;
 
   ${MAX.MEDIA_M}{
     margin-top: 10%;
@@ -74,16 +74,20 @@ const Cell = styled.li`
 function SkillsView() {
   const [items] = useState([
     {
+      title: "Product Management",
+      skillTheme: ['Jira / GitLab','Confluence','Didomi','Agile rituals','Workshop']
+    },
+    {
       title: "Web Development",
-      skillTheme: ['HTML/CSS','Accessibility','Javascript','React.js','PHP/SQL', "Node.js", "PWA"]
+      skillTheme: ['HTML/CSS','Accessibility','Javascript','PHP/SQL']
     },
     {
       title: "UX/UI",
-      skillTheme: ["Illustrator", "InDesign","Figma", "UX Method"]
+      skillTheme: ["Adobe","Figma", "UX Method"]
     },
     {
       title: "Strengths",
-      skillTheme: ["Agility","Team work", "Proactive", "Initiatives taker"]
+      skillTheme: ["Creative","Team work", "Proactive", "Initiatives taker"]
     }
   ])
 
