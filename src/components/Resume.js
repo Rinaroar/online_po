@@ -23,6 +23,7 @@ const Mini = styled.img`
     width: 40%;
     left: 0;
     position: relative;
+    bottom: 0;
   }
 `
 

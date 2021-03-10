@@ -56,6 +56,7 @@ const Hi = styled.p`
 `
 const Text = styled.p`
   font-weight: 500;
+  line-height: 1.9rem;
 
   ${MAX.MEDIA_M}{
     font-size: 1rem;
@@ -75,6 +76,14 @@ const Jump = styled.span`
   }
 `
 
+const Mobile = styled.span`
+display: none;
+
+${MAX.MEDIA_XS} {
+  display: initial;
+}
+`
+
 const Home = () => {
     return (
       <Container>
@@ -86,12 +95,10 @@ const Home = () => {
             </Hi>
             <Name>Marina Luxin</Name>
             <Text>Product Owner based in France
-              <Jump>
-                <br></br>
-              </Jump>
-            Interessed in product management included technical challenges,
-              <br></br>
-            User-oriented with strategic purpose, to improve projects and products</Text>
+              <br/>
+            Interessed in product management included technical challenges, <Mobile>user-oriented with strategic purpose, to improve projects and products.</Mobile>
+              <br/>
+            <Jump>User-oriented with strategic purpose, to improve projects and products</Jump></Text>
           </Section>
         <Social />
       </Container>
