@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navigation = styled.nav`
   padding:60px 30px 0px 30px ;
   flex: 1.5;
-  background-image: linear-gradient(to top, #680270, #720171, #7c0071, #850071, #8e0071, #950072, #9c0173, #a30274, #a90277, #b0027b, #b6017e, #bd0181);
+  background-color: #F0B269;
   display: block;
 
   ${MAX.MEDIA_M} {

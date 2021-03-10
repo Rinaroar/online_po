@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import  profilePic from '../img/pinkprofile.png';
+import  profilePic from '../img/profilepic.png';
 import Social from '../components/Social';
 import { MAX } from "../constants";
 
@@ -62,7 +62,7 @@ const Text = styled.p`
   }
 `
 const Name = styled.h1`
-  color: #720171;
+  color: #F0B269;
 `
 const Emoji = styled.i`
   font-size: 30px;
@@ -81,11 +81,11 @@ const Home = () => {
         <Profile src={profilePic} alt="My face"></Profile>
           <Section>
             <Hi>
-              <span role="img" aria-label="hihand"><Emoji>&#128075;&#127997;</Emoji></span>
+              <span role="img" aria-label="hihand"><Emoji>&#128075;&#127997; </Emoji></span>
               Hi there! My name is
             </Hi>
             <Name>Marina Luxin</Name>
-            <Text>I am software developer based in Paris, France <Jump><br></br></Jump>focused on learning and building creatives applications</Text>
+            <Text>Product Owner based in France <Jump><br></br></Jump>interessed in product management included technical challenges,<br></br> user-oriented with strategic purpose, to improve projects and products</Text>
           </Section>
         <Social />
       </Container>

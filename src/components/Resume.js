@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { MAX } from "../constants";
 
-import resume from '../img/front_end_dev.pdf';
+import resume from '../img/resume.pdf';
 import miniResume from '../img/mini-resume.png';
 
 const Mini = styled.img`
