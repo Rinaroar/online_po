@@ -5,8 +5,16 @@ import moveez from '../img/moveez.png';
 import pdo from '../img/crud_pdo.png';
 import wall from '../img/wall.png';
 import sunny from '../img/sunny.jpg';
+import aroma from '../img/aroma.png';
 
 const ProjectData = [
+  {
+    "category": "PRODUCT MANAGEMENT",
+    "title": "Aroma Water",
+    "text": "Mineral water launch for young senior",
+    "image": aroma,
+    "link": "https://aromaproject.carrd.co/"
+  },
   {
     "category": "FRONT-END",
     "title": "Your Moveez",
@@ -17,7 +25,7 @@ const ProjectData = [
   {
     "category": "FRONT-END",
     "title": "Weather App",
-    "text": "Check the weather wherever you are (in progress)",
+    "text": "Check the weather wherever you are",
     "image": sunny,
     "link": "https://github.com/Rinaroar/app_meteo"
   },

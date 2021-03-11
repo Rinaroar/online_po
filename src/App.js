@@ -15,7 +15,7 @@ import Experience from './contents/Experience';
 import SkillsView from './contents/SkillsView';
 import Contact from './contents/Contact';
 import Hobby from './contents/Hobby';
-/* import Projects from './contents/Projects'; */
+import Projects from './contents/Projects';
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
               <Route exact path="/skills" component={SkillsView} />
               <Route exact path="/contact" component={Contact} />
               <Route exact path="/hobby" component={Hobby} />
-              {/* <Route exact path="/projects" component={Projects} /> */}
+              <Route exact path="/projects" component={Projects} />
             </Switch>
           </div>
 

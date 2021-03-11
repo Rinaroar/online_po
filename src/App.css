@@ -36,7 +36,7 @@
   border: none;
   box-shadow: none;
   background-color: transparent;
-  color:  rgb(189, 1, 129);
+  color: #CC7D20;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -44,7 +44,7 @@
 }
 
 .button-primary:hover {
-  color:#680270;
+  color:#4F4F4F;
 }
 
 .button-primary i {
