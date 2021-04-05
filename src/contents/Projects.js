@@ -19,6 +19,7 @@ const Project = styled.div`
 `
 
 const Subtopic = styled.h1`
+  margin-bottom: 40px;
 
   ${MAX.MEDIA_XS} {
     font-size: 1.5rem;

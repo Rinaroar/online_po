@@ -1,4 +1,4 @@
-.card {
+/* .card {
   margin: 40px 85px 40px 0px;
   display: inline-block;
   width: 310px;
@@ -65,4 +65,30 @@
     width: 250px;
     margin: 40px 0px 10px 30px;
   }
+} */
+
+
+.card {
+  margin-bottom: 41px;
+  display: flex;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0px 4px 4px 0px grey;
+}
+
+.card-header {
+  height: 190px;
+  background-size: cover;
+  width: 33%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.category {
+  margin: 0;
+  color: #CC7D20;
 }
