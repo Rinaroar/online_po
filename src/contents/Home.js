@@ -84,6 +84,10 @@ ${MAX.MEDIA_XS} {
 }
 `
 
+const Made = styled.p`
+  font-size: 14px;
+`
+
 const Home = () => {
     return (
       <Container>
@@ -99,6 +103,11 @@ const Home = () => {
             Interessed in product management included technical challenges, <Mobile>user-oriented with strategic purpose, to improve projects and products.</Mobile>
               <br/>
             <Jump>User-oriented with strategic purpose, to improve projects and products</Jump></Text>
+            <br/>
+            <br/>
+            <Made>
+              <em>This site was made in React JS coded by myself <span role="img" aria-label="smiley">☺️</span></em>
+            </Made>
           </Section>
         <Social />
       </Container>
