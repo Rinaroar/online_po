@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import yoga from '../img/exercise.png';
+/* import yoga from '../img/exercise.png'; */
+import hobbies from '../img/hobbies.png'
 import { MAX } from "../constants";
 
 const Container = styled.div`
@@ -29,7 +30,7 @@ const Title = styled.h1`
   }
 `
 
-const ItemYoga = styled.img`
+const Hobbies = styled.img`
   margin-bottom: 45px;
   width: 400px;
 
@@ -44,24 +45,13 @@ const Text = styled.p`
   text-align: center;
   }
 `
-/* const InstaLink = styled.a`
-  text-decoration: none;
-  font-weight: 600;
-  color: rgb(189, 1, 129);
-
-  &:hover{
-  color:#680270;
-}
-` */
 
 const Contact = () => {
     return (
       <Container>
         <Title>What do I do after work ?</Title>
-        <ItemYoga src={yoga} alt="Yoga pose"></ItemYoga>
-        <Text>Sport, draw, dance, read and a lot a stuff !
-{/*           <InstaLink href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram"> Instagram Account!</InstaLink>
- */}        </Text>
+        <Hobbies src={hobbies} alt="hobbies"></Hobbies>
+        <Text>Books and flowers, my dog, sport, drawing and many more!</Text>
       </Container >
     )
 }
